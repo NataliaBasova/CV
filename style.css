@@ -1,38 +1,51 @@
-
 body {
 	background-color: #f1f1f1;
 	font-family: 'Source Sans Pro', sans-serif;
 }
+
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3 {
 	font-weight: 700;
 	text-transform: uppercase;
 }
+
+a {
+	color: #71aba4;
+}
+
+a:hover {
+	color: #60928c;
+}
+
 h1 small { color: #fff }
 
 .cv-page {
 	box-shadow: .3em .4em 10px #CCC;
 	background: #fff;
 }
+
 @media (min-width: 768px) {
 	.cv-page  {
 		background: linear-gradient(to right, #9bd4cd 50%, #fff 50%);
 	}
 }
+
 .cv-page header {
 	padding-bottom: 2em;
 	text-align: center;
 }
+
 .col-left {
 	background-color: #9bd4cd;
 	color: #FFF;
 }
+
 .col-left a {
 	color: #FFF;
 	font-weight: bold;
 }
 
 .col-sm-6 {
-	padding-top: 5em;
+	padding-top: 4em;
 	padding-right: 2em;
 	padding-left: 2em;
 }
